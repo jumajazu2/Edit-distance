@@ -14,6 +14,7 @@ def edit_distance(str1, str2):
 
     return dp[m][n]
 
+
 while True:
     str1 = input("Original sentence: ")
     str2 = input("Edited sentence: ")
